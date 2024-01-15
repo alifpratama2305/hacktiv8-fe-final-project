@@ -16,7 +16,7 @@ const Card = ({poster, title, isLoading}) => {
             <div className='h-40 relative'>
                 <img src={poster} className="w-full h-40 object-cover rounded-t-md" alt={title} />
             </div>
-            <div className=" h-12 px-2 flex items-center justify-center bg-cyan-600 text-white w-full group-hover/card:bg-gradient-to-r from-cyan-500 to-blue-500 rounded-b-md">
+            <div className=" h-12 px-2 flex items-center justify-center bg-yellow-200 text-black w-full group-hover/card:bg-gradient-to-r from-yellow-300 to-yellow-200 rounded-b-md">
                 {title}
             </div>
         </div>
